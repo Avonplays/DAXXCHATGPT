@@ -102,7 +102,7 @@ HELP_BACK = [
 
   
 #         start
-@DAXX.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
+@DAXX.on_message(filters.command(["lstart",f"start@{BOT_USERNAME}"]))
 async def start(client, m: Message):
     try:
         accha = await m.reply_text(
